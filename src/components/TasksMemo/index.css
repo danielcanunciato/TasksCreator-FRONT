@@ -1,0 +1,20 @@
+.task-wrapper {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+
+    border-radius: 1rem;
+    padding: 8px 8px;
+    background-color: #1a1a1a41;
+    border: 4px inset white;
+
+    text-align: left;
+    gap: 0.25rem;
+}
+
+.licon {
+    color: white;
+    margin-top: 2px;
+    font-size: 1.5rem;
+}
