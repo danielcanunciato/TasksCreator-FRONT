@@ -4,7 +4,7 @@ import Router from './Router.jsx';
 
 function App() {
   //const API_BASE = 'http://localhost:4000';
-  const API_BASE = 'http://192.168.100.162:4000';
+  const API_BASE = "https://tc-api.clooverlandstudios.com/";
 
   const [authToken, setAuthToken] = useState(() => {
     if (localStorage.getItem('userSignedOut') === 'true') return null;
